@@ -6,7 +6,7 @@ function encontrarGanhador(participanteA, participanteB) {
     let totalParticipanteA = 0;
     let totalParticipanteB = 0;
 
-    for (let i = 0; i < participanteA.length; i++) {
+    for (let i = 0; i < participanteA.length && i < participanteB.length; i++) {
         if (participanteB[i] > participanteA[i]) {
             totalParticipanteB++;
         }
